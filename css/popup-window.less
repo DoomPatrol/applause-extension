@@ -1,0 +1,84 @@
+//main: popup.less
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif !important;
+  color: @white;
+  background-color: @green;
+}
+
+
+
+.heavy-text {
+  font-weight: 700;
+}
+
+a {
+  color: @green;
+  text-decoration: none;
+  font-weight: 700;
+
+  &:hover {
+    color: darken(@green, 25%);
+  }
+}
+
+.header-content{
+  text-align: center;
+  color: @white !important;
+}
+
+.bg-wrapper {
+  padding: 3%;
+}
+
+.main-popup {
+  h1,h2,h3,h4 {
+    background: -webkit-linear-gradient(to left,fade(@green, 70%), fade(@light-green, 70%));  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, fade(@green, 70%), fade(@light-green, 70%));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  height: 100%;
+  width: 500px;
+  color: @black;
+  max-height: 700px;
+
+  .clap-card {
+    padding: 3%;
+    background-color: @white;
+    margin-top: 5px;
+  }
+
+  .logo-img {
+    display: inline-block;
+    height: 30px;
+  }
+}
+
+footer {
+  background: @green;
+  color: @white;
+  text-align: center;
+  height: 100%;
+
+  a {
+    color: @white;
+    font-weight: 700;
+
+    &:hover {
+      color: darken(@white, 25%);
+    }
+  }
+}
+
+.sad-panda {
+  text-align: center;
+}
+
+.sad-panda-img {
+  margin: 0 auto;
+  display: block;
+  padding: 20px 0;
+}
