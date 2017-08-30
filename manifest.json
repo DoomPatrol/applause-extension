@@ -1,9 +1,9 @@
 {
   "name": "Applause",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "Give all of your favorite writers on Medium the applause they deserve.",
-  "homepage_url": "https://www.austingrandt.com",
+  "description": "Create and track your claps on Medium",
+  "homepage_url": "https://austingrandt.com/applause/",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",

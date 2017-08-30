@@ -59,7 +59,7 @@ setInterval(function()
 								method: 'medium',
 								claps: clapCalc,
 								title: $('.graf--title').text(),
-								author: $('[property="article:author"]').attr('content') !== undefined ? $('[property="article:author"]').attr('content') : $('[property="author"]').attr('content')
+								author: ($('[property="article:author"]').attr('content') !== undefined && isNaN($('[property="article:author"]').attr('content'))) ? $('[property="article:author"]').attr('content') : $('[property="author"]').attr('content')
 							}
 
 							injectScript.messaging.sendMessage(clapData);
@@ -103,7 +103,7 @@ setInterval(function()
 									method: 'medium',
 									claps: parseInt(applauseInput),
 									title: $('.graf--title').text(),
-									author: $('[property="article:author"]').attr('content') !== undefined ? $('[property="article:author"]').attr('content') : $('[property="author"]').attr('content')
+									author: ($('[property="article:author"]').attr('content') !== undefined && isNaN($('[property="article:author"]').attr('content'))) ? $('[property="article:author"]').attr('content') : $('[property="author"]').attr('content')
 								}
 
 								injectScript.messaging.sendMessage(clapData);
