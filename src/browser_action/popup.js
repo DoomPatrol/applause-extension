@@ -20,7 +20,7 @@ var popupScript = popupScript || {
       } else {
         clapItems = items.claps;
         for(i = 0; i < clapItems.length; i++){
-            var clapItem = '<div class="clap-card"><p class="clap-counter">'+ (i + 1) +'.)  '+ clapItems[i].claps +' <img src="../../icons/icon16.png"> for <a target="_blank" href="'+ clapItems[i].url +'">'+ clapItems[i].title +'</a> by '+ clapItems[i].author +'<p></div>'
+            var clapItem = '<div class="clap-card"><p class="clap-counter">'+ (i + 1) +'.)  '+ clapItems[i].claps +' <img src="../../icons/icon16.png"> for <a target="_blank" href="'+ clapItems[i].url +'">'+ clapItems[i].title +'</a> by '+ clapItems[i].author +'</p></div>'
             $('.main-popup').append(clapItem);
         }
       }

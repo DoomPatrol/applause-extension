@@ -1,6 +1,6 @@
 {
   "name": "Applause",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "manifest_version": 2,
   "description": "Create and track your claps on Medium",
   "homepage_url": "https://austingrandt.com/applause/",
@@ -16,7 +16,7 @@
   },
   "browser_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "browser action demo",
+    "default_title": "Applause",
     "default_popup": "src/browser_action/browser_action.html"
   },
   "permissions": [
